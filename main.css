@@ -1,0 +1,81 @@
+.imgs {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btns1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+button {
+    cursor: pointer;
+}
+
+.contents {
+    display: flex;
+    gap: 20px;
+}
+
+.content1 {
+    width: 200px;
+    height: 200px;
+    background-color: beige;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+}
+
+#btns2 {
+    margin-left: 140px;
+}
+
+#cards {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#set {
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+}
+#cards2 {
+    display: flex;
+    justify-content: center;
+    gap: 190px;
+    margin-top: 20px;
+}
+
+.buttons {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    border: 1px solid #333;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+  }
+  
+  .qizil {
+    background-color: red;
+    color: white;
+    border-color: darkred;
+  }
+
+  #main-box {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #000;
+}
+
+.color-btn.active {
+    font-weight: bold;
+    border: 2px solid #000;
+}
